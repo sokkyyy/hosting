@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>Yolomy</title>
+
+</head>
+
+<body>
+  <div class="fullpage-pic">
+
+    <div class="header">
+      <div class="company-logo">
+        <img src="./assets/logo/logo.png" alt="logo">
+      </div>
+
+
+      <div class="header-right" >
+        <a href="#">Home</a>
+        <a href="#products">Product</a>
+        <img src="./assets/logo/shop.png">
+      </div>
+    </div>
+
+    <div class="description">
+      <h2>Our clothing, your comfort</h2>
+      <div class="description-paragraph">
+
+        <p>We understand that you need to look good and feel great.<br>
+            It all starts with what you are wearing.</p>
+      </div>
+    </div>
+
+    <div class="mouse-click">
+      <img src="./assets/mouse_click.png">
+    </div>
+
+  </div>
+
+  <div class="products" id="products">
+
+    <div class="products-bar">
+
+      <div class="products-checkbox">
+      
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" id="defaultInline1" checked >
+          <label class="custom-control-label" for="defaultInline1">MEN</label>
+        </div>
+
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" id="defaultInline2">
+          <label class="custom-control-label" for="defaultInline2">WOMEN</label>
+        </div>
+
+        <div class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input" id="defaultInline3">
+          <label class="custom-control-label" for="defaultInline3">CHILDREN</label>
+        </div>
+
+      </div>
+
+      <div class="products-button">
+        <button id='btn'>SEE ALL PRODUCTS</button>
+      </div>
+    </div>
+
+
+
+    <div class="products-category">
+
+      <div class="products-men" id="mensProducts">
+
+        <span class="men">MEN</span>
+        <div class="check-stock">
+          <span class="stock-navigation">1 / 5</span>
+          <i class="left-caret"></i>
+          <i class="right-caret"></i>
+        </div>
+
+        <div class="product-columns">
+
+          <div class="col-md-3 column productbox" productbox>
+            <div class="product-header">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                <span class="caret"></span></button>
+                <div class="dropdown-menu" aria-labelledby="size">
+                  <button class="dropdown-item" type="button">LARGE</button>
+                  <button class="dropdown-item" type="button">MEDIUM</button>  
+                  <button class="dropdown-item" type="button">SMALL</button>
+                </div>
+              </div>
+              <div class="color-dots">
+                <span class="greenDot"></span>
+                <span class="blueDot"></span>
+                <span class="greyDot"></span>
+              </div>
+            </div>
+            <img src="./assets/products/tshirt.png" productImage>
+            <span class="prod-description">T-SHIRT</span>
+            <span class="prod-price">5,00&euro;</span>
+          </div>
+        
+          <div class="col-md-3 column productbox" productbox>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+              <span class="caret"></span></button>
+              <div class="dropdown-menu" aria-labelledby="size">
+                <button class="dropdown-item" type="button">LARGE</button>
+                <button class="dropdown-item" type="button">MEDIUM</button>  
+                <button class="dropdown-item" type="button">SMALL</button>
+              </div>
+            </div>
+            <img src="./assets/products/pants.png" productImage>
+            <span class="prod-description">PANTS FORCLAZ</span>
+            <span class="prod-price">30,00&euro;</span>
+          </div>
+        
+          <div class="col-md-3 column productbox" productbox>
+            <span style="display:block; padding-top: 10px;">10LITRI</span>
+            <img src="./assets/products/backpack.png" productImage>
+            <span class="prod-description">BACKPACK</span>
+            <span class="prod-price">60,00&euro;</span>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="products-women" id="womenProducts">
+        <div class="women-separator-line"></div>
+        <div class="women">WOMEN</div>
+
+        <div class="check-stock" style="margin-left: 110px;">
+          <span class="stock-navigation">1 / 5</span>
+          <i class="left-caret"></i>
+          <i class="right-caret"></i>
+        </div>
+
+          <div class="product-columns">
+
+              <div class="col-md-3 column productbox" productbox>
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                  </div>
+                <img src="./assets/products/giacket.png" productImageWomen>
+                <span class="prod-description">T-SHIRT</span>
+                <span class="prod-price">5,00&euro;</span>
+              </div>
+            
+              <div class="col-md-3 column productbox" productbox>
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                    </div>
+                <img src="./assets/products/trekkingshoes.png" style="height: 50%;" productImageWomen>
+                <span class="prod-description" style="padding-top: 95px">PANTS FORCLAZ</span>
+                <span class="prod-price" style="padding-top: 95px">30,00&euro;</span>
+              </div>
+            
+              <div class="col-md-3 column productbox" productbox>
+                <div class="product-header">
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                    </div>
+                    <div class="color-dots" style="padding-left: 130px;">
+                      <span class="dot " style="background-color: plum;"></span>
+                      <span class="dot " style="background-color: white; margin-left: 10px; "></span>
+                    </div>
+                </div>
+                <img src="./assets/products/tshirt_ladies.png" productImageWomen>
+                <span class="prod-description">BACKPACK</span>
+                <span class="prod-price">60,00&euro;</span>
+              </div>
+          </div>
+      </div>
+
+      <div class="products-children" id="childrenProducts">
+        <span class="children">CHILDREN</span>
+        <br><br>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="about-us">
+    <div class="about-us-heading">ABOUT US</div>
+    <div class="about-border">
+      <div class="about-content">
+        This is where high-fashion clothing is <br>
+        designed and crafted from the heart by <br>
+        an amazing team of craftsmen and <br>
+        designers who understand what fashion <br>
+        is.
+      </div>
+    </div>
+  </div>
+
+  <div class="promo">
+      <span class="twitter-bird"><img src="./assets/social_icons/twitter_bird.png" alt="twitter"></span>
+      <span class="promo-message">"SALE: Buy anything for 45% off. Use the promo CODE YOLOMY45 when you buy items"</span>
+  </div>
+
+
+  <footer class="page-footer font-small blue pt-4" footer >
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-5 mt-md-0 mt-3" footer-content>
+          <h5 class="text-uppercase">YOLOMY</h5>
+          <p>
+            WE ARE YOLOMY- WE UNDERSTAND<br>
+            FASHION AND STYLE. WE CRAFT OUR<br>
+            PRODUCTS WITH LOVE AND DILIGENCE.
+          </p>
+
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3" footer-socials>
+          <h5 class="text-uppercase">We are social</h5> <br>
+          <a href="#"><img src="./assets/social_icons/g_plus.png"></a>
+          <a href="#"><img src="./assets/social_icons/facebook.png"></a>
+          <a href="#"><img src="./assets/social_icons/you_tube.png"></a>
+          <a href="#"><img src="./assets/social_icons/stumble_upon.png"></a> <br> <br>
+          <a href="#"><img src="./assets/social_icons/skype.png"></a>
+          <a href="#"><img src="./assets/social_icons/flickr.png"></a>
+          <a href="#"><img src="./assets/social_icons/twitter.png"></a>
+          <a href="#"><img src="./assets/social_icons/pinterest.png"></a>
+        </div>
+
+
+        <div class="col-md-4 mb-md-0 mb-3" footer-right>
+          <span border-right>CREDITS</span>
+          <span border-right>PRIVACY</span>
+          <span border-right>ABOUT</span>
+          <span >CONTACT</span>
+
+          <h2>Yolomy: We Mean Fashion</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright text-center py-3" copyright>
+      © 2019 COPYRIGHT. YOLOMY INC
+    </div>
+  </footer>
+  <!-- Footer -->
+
+  <script src="./scripts/index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
